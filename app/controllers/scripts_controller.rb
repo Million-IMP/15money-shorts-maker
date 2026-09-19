@@ -29,7 +29,8 @@ class ScriptsController < ApplicationController
       주제: #{topic}
     PROMPT
 
-    uri = URI("https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=#{api_key}")
+    uri = URI("https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key=#{api_key}")
+
     request = Net::HTTP::Post.new(uri)
     request['Content-Type'] = 'application/json'
     
