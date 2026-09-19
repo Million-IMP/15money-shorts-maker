@@ -39,3 +39,7 @@
 
 # Ignore bkit plugin runtime/log state
 /.bkit/
+
+# Ignore sibling git worktree checkouts
+/master/
+/orca/
