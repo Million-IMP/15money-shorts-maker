@@ -43,3 +43,8 @@
 # Ignore sibling git worktree checkouts
 /master/
 /orca/
+
+# Ignore scratch screenshots/logs/images at repo root
+/img/
+/logs.txt
+/profile_image.jpg
