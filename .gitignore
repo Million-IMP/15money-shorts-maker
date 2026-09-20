@@ -37,6 +37,10 @@
 /app/assets/builds/*
 !/app/assets/builds/.keep
 
+# Ignore local npm install used only as a Ruby-free Tailwind CSS build fallback
+/node_modules
+/package-lock.json
+
 # Ignore bkit plugin runtime/log state
 /.bkit/
 
