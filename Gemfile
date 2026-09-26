@@ -68,4 +68,4 @@ group :test do
 end
 
 gem "dotenv-rails", "~> 3.2"
-gem 'json', '~> 2.7.2'
+gem 'json', '~> 3.0.2'
